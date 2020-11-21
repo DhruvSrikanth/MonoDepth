@@ -1,0 +1,28 @@
+Ubuntu - 
+
+base path - /home/user01/storage/NYU Depth Analysis/src
+F:/Work/Work/Outdu Internship/nyu_depth_v2_dataset/src
+
+Train - python3 train.py --data nyu --bs 2
+Train from checkpoint - python3 train.py --data nyu --bs 2 --epochs 5 --checkpoint ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt
+
+Evaluate using specific epoch's weights - python3 evaluate.py --model /models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt
+Evaluate using final model's weights - python3 evaluate.py --model ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/final_model_weights/model_weights
+
+Optimal weights found at epoch - 23
+
+Test model for a group of images - python3 test.py --model ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt --input '/home/user01/storage/NYU Depth Analysis/test_images/*.png'
+Test model for a single image - python3 test.py --model ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt --input '/home/user01/storage/NYU Depth Analysis/test_image/*.png'
+
+
+Windows - 
+
+base path - F:/Work/Work/Outdu Internship/nyu_depth_v2_dataset/src
+
+Evaluate using specific epoch's weights - python evaluate.py --model 'F:/Work/Work/Outdu Internship/nyu_depth_v2_dataset/src/models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt'
+Evaluate using final model's weights - python evaluate.py --model 'F:/Work/Work/Outdu Internship/nyu_depth_v2_dataset/src/models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/final_model_weights/model_weights'
+
+Optimal weights found at epoch - 23
+
+Test model for a group of images - python test.py --model 'F:/Work/Work/Outdu Internship/nyu_depth_v2_dataset/src/models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt' --input 'F:/Work/Work/Outdu Internship/nyu_depth_v2_dataset/test_images/*.png'
+Test model for a single image - python test.py --model 'F:/Work/Work/Outdu Internship/nyu_depth_v2_dataset/src/models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt' --input 'F:/Work/Work/Outdu Internship/nyu_depth_v2_dataset/test_image/*.png'

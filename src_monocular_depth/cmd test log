@@ -1,0 +1,9 @@
+user01@vinay:~/storage/NYU Depth Analysis/src$ python3 test.py --model ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt --input '/home/user01/storage/NYU Depth Analysis/test_images/*.png'
+Loading model...
+Base model loaded DenseNet169
+
+Model created.
+Model weights loaded from path -  ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt
+
+Loaded (12) images of size (480, 640, 3).
+

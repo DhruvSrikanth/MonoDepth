@@ -1,0 +1,14 @@
+ser01@vinay:~/storage/NYU Depth Analysis/src$ python3 evaluate.py --model ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt
+Loading model...
+Base model loaded DenseNet169
+
+Model created.
+Model weights loaded from path -  ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt
+Loading test data...Test data loaded.
+
+Testing...
+        a1,         a2,         a3,        rel,        rms,     log_10
+    0.8407,     0.9708,     0.9937,     0.1293,     0.5613,     0.0543
+
+Test time 61.25908279418945 s
+

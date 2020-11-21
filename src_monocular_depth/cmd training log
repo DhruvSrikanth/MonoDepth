@@ -1,0 +1,117 @@
+user01@vinay:~/storage/NYU Depth Analysis/src$ python3 train.py --data nyu --bs 2
+Will use GPU 0
+Base model loaded DenseNet169
+
+Model created.
+Output: ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu
+
+
+
+ Compiling model.. 1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu 
+
+	GPU 0		Batch size [ 2 ]  
+
+
+Ready for training!
+
+Epoch 1/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.1357     
+Epoch 00001: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.01-0.13.ckpt
+25344/25344 [==============================] - 5918s 234ms/step - loss: 0.1357 - val_loss: 0.1322 - lr: 1.0000e-04
+Epoch 2/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0977     
+Epoch 00002: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.02-0.13.ckpt
+25344/25344 [==============================] - 5917s 233ms/step - loss: 0.0977 - val_loss: 0.1254 - lr: 1.0000e-04
+Epoch 3/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0866     
+Epoch 00003: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.03-0.12.ckpt
+25344/25344 [==============================] - 5916s 233ms/step - loss: 0.0866 - val_loss: 0.1222 - lr: 1.0000e-04
+Epoch 4/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0802     
+Epoch 00004: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.04-0.12.ckpt
+25344/25344 [==============================] - 5919s 234ms/step - loss: 0.0802 - val_loss: 0.1242 - lr: 1.0000e-04
+Epoch 5/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0760     
+Epoch 00005: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.05-0.12.ckpt
+25344/25344 [==============================] - 5919s 234ms/step - loss: 0.0760 - val_loss: 0.1227 - lr: 1.0000e-04
+Epoch 6/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0729     
+Epoch 00006: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.06-0.12.ckpt
+25344/25344 [==============================] - 5917s 233ms/step - loss: 0.0729 - val_loss: 0.1203 - lr: 1.0000e-04
+Epoch 7/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0705     
+Epoch 00007: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.07-0.12.ckpt
+25344/25344 [==============================] - 5943s 234ms/step - loss: 0.0705 - val_loss: 0.1207 - lr: 1.0000e-04
+Epoch 8/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0687     
+Epoch 00008: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.08-0.12.ckpt
+25344/25344 [==============================] - 5929s 234ms/step - loss: 0.0687 - val_loss: 0.1194 - lr: 1.0000e-04
+Epoch 9/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0673     
+Epoch 00009: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.09-0.12.ckpt
+25344/25344 [==============================] - 5927s 234ms/step - loss: 0.0673 - val_loss: 0.1185 - lr: 1.0000e-04
+Epoch 10/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0659     
+Epoch 00010: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.10-0.12.ckpt
+25344/25344 [==============================] - 5928s 234ms/step - loss: 0.0659 - val_loss: 0.1202 - lr: 1.0000e-04
+Epoch 11/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0648     
+Epoch 00011: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.11-0.12.ckpt
+25344/25344 [==============================] - 5932s 234ms/step - loss: 0.0648 - val_loss: 0.1205 - lr: 1.0000e-04
+Epoch 12/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0629     
+Epoch 00012: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.12-0.12.ckpt
+25344/25344 [==============================] - 5932s 234ms/step - loss: 0.0629 - val_loss: 0.1189 - lr: 9.0000e-05
+Epoch 13/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0620     
+Epoch 00013: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.13-0.12.ckpt
+25344/25344 [==============================] - 5924s 234ms/step - loss: 0.0620 - val_loss: 0.1184 - lr: 9.0000e-05
+Epoch 14/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0612     
+Epoch 00014: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.14-0.12.ckpt
+25344/25344 [==============================] - 5927s 234ms/step - loss: 0.0612 - val_loss: 0.1179 - lr: 9.0000e-05
+Epoch 15/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0607     
+Epoch 00015: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.15-0.12.ckpt
+25344/25344 [==============================] - 5937s 234ms/step - loss: 0.0607 - val_loss: 0.1182 - lr: 9.0000e-05
+Epoch 16/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0601     
+Epoch 00016: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.16-0.12.ckpt
+25344/25344 [==============================] - 5918s 234ms/step - loss: 0.0601 - val_loss: 0.1191 - lr: 9.0000e-05
+Epoch 17/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0595     
+Epoch 00017: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.17-0.12.ckpt
+25344/25344 [==============================] - 5894s 233ms/step - loss: 0.0595 - val_loss: 0.1192 - lr: 9.0000e-05
+Epoch 18/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0590     
+Epoch 00018: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.18-0.12.ckpt
+25344/25344 [==============================] - 5897s 233ms/step - loss: 0.0590 - val_loss: 0.1191 - lr: 9.0000e-05
+Epoch 19/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0586     
+Epoch 00019: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.19-0.12.ckpt
+25344/25344 [==============================] - 5900s 233ms/step - loss: 0.0586 - val_loss: 0.1178 - lr: 9.0000e-05
+Epoch 20/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0581     
+Epoch 00020: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.20-0.12.ckpt
+25344/25344 [==============================] - 5916s 233ms/step - loss: 0.0581 - val_loss: 0.1191 - lr: 9.0000e-05
+Epoch 21/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0578     
+Epoch 00021: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.21-0.12.ckpt
+25344/25344 [==============================] - 5916s 233ms/step - loss: 0.0578 - val_loss: 0.1199 - lr: 9.0000e-05
+Epoch 22/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0574     
+Epoch 00022: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.22-0.12.ckpt
+25344/25344 [==============================] - 5926s 234ms/step - loss: 0.0574 - val_loss: 0.1188 - lr: 9.0000e-05
+Epoch 23/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0570     
+Epoch 00023: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.23-0.12.ckpt
+25344/25344 [==============================] - 5915s 233ms/step - loss: 0.0570 - val_loss: 0.1179 - lr: 9.0000e-05
+Epoch 24/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0568     
+Epoch 00024: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.24-0.12.ckpt
+25344/25344 [==============================] - 5914s 233ms/step - loss: 0.0568 - val_loss: 0.1197 - lr: 9.0000e-05
+Epoch 25/25
+25344/25344 [==============================] - ETA: 0s - loss: 0.0564     
+Epoch 00025: saving model to ./models/1596012197-n25344-e25-bs2-lr0.0001-densedepth_nyu/weights.25-0.12.ckpt
+25344/25344 [==============================] - 5913s 233ms/step - loss: 0.0564 - val_loss: 0.1202 - lr: 9.0000e-05
+
