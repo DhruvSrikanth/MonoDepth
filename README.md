@@ -1,6 +1,6 @@
 # MonoDepth
-Monocular Depth Estimation via Transfer Learning (Tensorflow 2.0)"\n"
-Based off of - "\n"
+Monocular Depth Estimation via Transfer Learning (Tensorflow 2.0)
+Based off of - 
 @article{DBLP:journals/corr/abs-1812-11941,
   author    = {Ibraheem Alhashim and
                Peter Wonka},
